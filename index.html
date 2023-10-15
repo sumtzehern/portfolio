@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
-    <script src="https://kit.fontawesome.com/c979edd443.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
-                
+    <link rel="stylesheet" href="media.css" />
+    <script
+      src="https://kit.fontawesome.com/c979edd443.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
   </head>
   <body>
     <nav id="desktop-nav">
@@ -19,13 +21,13 @@
           <li><a href="#about">About</a></li>
           <li><a href="#experience">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
-          <li><a href="#Blog">Blog</a></li>
+          <!-- <li><a href="#Blog">Blog</a></li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Wesley Sum</div>
+      <div class="logo">Tzehern.</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -34,11 +36,13 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
+        </div>
       </div>
+      <script src="script.js"></script>
     </nav>
     <section id="profile">
       <div class="section__pic-container">
@@ -60,16 +64,16 @@
           </button>
         </div>
         <div id="socials-container">
-          <i 
-          class="fa-brands fa-linkedin fa-2x icon"
-          onclick="window.open('https://www.linkedin.com/in/wesley-sum/', '_blank')"
-          aria-label="My Linkedln profile"
+          <i
+            class="fa-brands fa-linkedin fa-2x icon"
+            onclick="window.open('https://www.linkedin.com/in/wesley-sum/', '_blank')"
+            aria-label="My Linkedln profile"
           ></i>
           <i
-          class="fab fa-github fa-2x icon"
-          onclick="window.open('https://github.com/sumtzehern', '_blank')"
-          aria-label="My GitHub profile"
-        ></i>
+            class="fab fa-github fa-2x icon"
+            onclick="window.open('https://github.com/sumtzehern', '_blank')"
+            aria-label="My GitHub profile"
+          ></i>
         </div>
       </div>
     </section>
@@ -98,11 +102,21 @@
           </div>
           <div class="text-container">
             <p>
-                Hello there! I'm a junior Computer Science student at Virginia Tech, proudly embracing the world of coding and innovation. Fueled by curiosity, I find myself deeply captivated by the endless possibilities of programming, particularly in the realms of backend and full-stack applications.
+              Hello there! I'm a junior Computer Science student at Virginia
+              Tech, proudly embracing the world of coding and innovation. Fueled
+              by curiosity, I find myself deeply captivated by the endless
+              possibilities of programming, particularly in the realms of
+              backend and full-stack applications.
             </p>
-            <p> </p>
+            <p></p>
             <p>
-                Originally from Malaysia, I bring a unique perspective to my passion for technology. As someone who finds beauty in both the logic of coding and the creativity of design, I'm currently engrossed in exploring the enchanting world of backend technologies. The thrill of uncovering solutions to complex problems and the joy of bringing ideas to life through code never fail to amaze me.
+              Originally from Malaysia, I bring a unique perspective to my
+              passion for technology. As someone who finds beauty in both the
+              logic of coding and the creativity of design, I'm currently
+              engrossed in exploring the enchanting world of backend
+              technologies. The thrill of uncovering solutions to complex
+              problems and the joy of bringing ideas to life through code never
+              fail to amaze me.
             </p>
           </div>
         </div>
@@ -344,7 +358,11 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:wesleysumtzehernsoftwaredev@gmail.com">wesleysum@gmail.com</a></p>
+          <p>
+            <a href="mailto:wesleysumtzehernsoftwaredev@gmail.com"
+              >wesleysum@gmail.com</a
+            >
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -352,7 +370,12 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a onclick="window.open('https://www.linkedin.com/in/wesley-sum/', '_blank')" >LinkedIn</a></p>
+          <p>
+            <a
+              onclick="window.open('https://www.linkedin.com/in/wesley-sum/', '_blank')"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
     </section>
