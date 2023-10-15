@@ -28,6 +28,7 @@ section#profile .section__pic-container img {
 a,
 .btn {
   transition: all 300ms ease;
+  cursor: pointer;
 }
 
 /* DESKTOP NAV */
@@ -69,7 +70,7 @@ a:hover {
 
 .logo:hover {
   cursor: default;
-  color: orangered;
+  color: #007acc;
 }
 
 /* HAMBURGER MENU */
