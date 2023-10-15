@@ -19,6 +19,10 @@ p {
   color: rgb(85, 85, 85);
 }
 
+section#profile .section__pic-container img {
+  border-radius: 50%; /* Makes the image circular */
+}
+
 /* TRANSITION */
 
 a,
@@ -60,7 +64,7 @@ a:hover {
 
 .logo {
   font-size: 2rem;
-  font-family: 'Gilroy-Bold', sans-serif;
+  font-family: "Gilroy-Bold", sans-serif;
 }
 
 .logo:hover {
@@ -233,7 +237,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
-  border-radius:  20%;
+  border-radius: 20%;
 }
 
 /* BUTTONS */
@@ -419,7 +423,7 @@ article .icon {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: (250, 250, 250);
+  background-color: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -454,3 +458,67 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* Dark Mode */
+#dark-icon {
+  width: 30px;
+  cursor: pointer;
+}
+
+body.dark-mode {
+  background-color: #181818; /* Dark mode background color */
+  color: #ffffff; /* Dark mode text color */
+}
+
+body.dark-mode a {
+  color: #536878; /* Dark mode link color */
+}
+
+body.dark-mode .btn-color-1,
+body.dark-mode .btn-color-2 {
+  border-color: #536878; /* Dark mode button border color */
+}
+
+body.dark-mode .menu-links a {
+  color: white; /* Dark mode hamburger menu link color */
+}
+
+body.dark-mode .menu-links.open {
+  background-color: rgba(
+    89,
+    115,
+    135,
+    0.7
+  ); /* Dark mode open menu background color */
+}
+
+body.dark-mode .details-container {
+  background: #181818; /* Dark mode background color for details containers */
+  border-color: #536878;
+}
+
+body.dark-mode .about-details-container {
+  background: #181818; /* Dark mode background color for details containers */
+  border-color: #536878; /* Border color for details containers in dark mode */
+}
+
+body.dark-mode .aboutMeText {
+  color: #ffffff; /* Dark mode text color for the specific class */
+}
+
+body.dark-mode .nav-links li a {
+  color: white; /* Dark mode text color for navigation bar links */
+}
+
+body.dark-mode .btn.btn-color-2 {
+  color: white; /* Dark mode text color for the "Download CV" button */
+}
+
+body.dark-mode .hamburger-icon span {
+  background-color: white; /* Set background color to white in dark mode */
+}
+
+body.dark-mode .menu-links {
+  background-color: rgba(89, 115, 135, 0.7); /* Grey background with 70% transparency */
+}
+
