@@ -408,6 +408,113 @@ article .icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* PROGRAMMING ICON */
+
+body.dark-mode .html-css-icon {
+  color: #e44d26; /* HTML/CSS color */
+}
+
+body.dark-mode .javascript-icon {
+  color: #f7df1e; /* JavaScript color */
+}
+
+body.dark-mode .typescript-icon {
+  color: #007acc; /* TypeScript color */
+}
+
+body.dark-mode .react-icon {
+  color: #61dafb; /* React color */
+}
+
+body.dark-mode .api-icon {
+  color: #ff931e; /* API color */
+}
+
+body.dark-mode .sql-icon {
+  color: #00758f; /* SQL color */
+}
+
+body.dark-mode .nodejs-icon {
+  color: #68a063; /* Node.js color */
+}
+
+body.dark-mode .mangodb-icon {
+  color: #4db33d; /* MongoDB color */
+}
+
+body.dark-mode .flask-icon {
+  color: #000; /* Flask color */
+}
+
+body.dark-mode .django-icon {
+  color: #092e20; /* Django color */
+}
+
+body.dark-mode .c-icon {
+  color: #a8b9cc; /* C++ color */
+}
+
+body.dark-mode .java-icon {
+  color: #007396; /* Java color */
+}
+
+body.dark-mode .python-icon {
+  color: #3776ab; /* Python color */
+}
+
+.html-css-icon {
+  color: #e44d26; /* HTML/CSS color */
+}
+
+.javascript-icon {
+  color: #f7df1e; /* JavaScript color */
+}
+
+.typescript-icon {
+  color: #007acc; /* TypeScript color */
+}
+
+.react-icon {
+  color: #61dafb; /* React color */
+}
+
+.api-icon {
+  color: #ff931e; /* API color */
+}
+
+.sql-icon {
+  color: #00758f; /* SQL color */
+}
+
+.nodejs-icon {
+  color: #68a063; /* Node.js color */
+}
+
+.mangodb-icon {
+  color: #4db33d; /* MongoDB color */
+}
+
+.flask-icon {
+  color: #000; /* Flask color */
+}
+
+.django-icon {
+  color: #092e20; /* Django color */
+}
+
+.c-icon {
+  color: #a8b9cc; /* C++ color */
+}
+
+.java-icon {
+  color: #007396; /* Java color */
+}
+
+.python-icon {
+  color: #3776ab; /* Python color */
+}
+
+
 /* CONTACT */
 
 #contact {
@@ -459,7 +566,7 @@ footer p {
   text-align: center;
 }
 
-/* Dark Mode */
+/* DARK MODE */
 #dark-icon {
   width: 30px;
   cursor: pointer;
@@ -520,5 +627,31 @@ body.dark-mode .hamburger-icon span {
 
 body.dark-mode .menu-links {
   background-color: rgba(89, 115, 135, 0.7); /* Grey background with 70% transparency */
+}
+
+/* TRANSITION */
+
+/* Add transition to color and background-color with a duration of 0.3 seconds */
+body,
+body.dark-mode {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Add transition to the menu-links background-color with a duration of 0.3 seconds */
+body .menu-links,
+body.dark-mode .menu-links {
+  transition: background-color 0.3s ease;
+}
+
+body .details-container,
+body.dark-mode .details-container,
+body .about-details-container,
+body.dark-mode .about-details-container {
+  transition: border-color 0.3s ease;
+}
+
+body .hamburger-icon span,
+body.dark-mode .hamburger-icon span {
+  transition: transform 0.3s ease;
 }
 
