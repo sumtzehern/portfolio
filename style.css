@@ -171,6 +171,26 @@ section {
   height: 80vh;
 }
 
+.virginia_tech {
+  font-weight: bold;
+  color: grey;
+}
+
+.virginia_tech:hover {
+  cursor: default;
+  color: maroon;
+}
+
+.occ {
+  font-weight: bold;
+  color: grey;
+}
+
+.occ:hover {
+  cursor: default;
+  color: orange;
+}
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -213,6 +233,7 @@ section {
 .icon {
   cursor: pointer;
   height: 2rem;
+  border-radius:  20%;
 }
 
 /* BUTTONS */
@@ -314,6 +335,8 @@ section {
   height: 400px;
   width: 400px;
   margin: auto 0;
+  border-radius: 90%;
+  object-fit: cover;
 }
 
 /* EXPERIENCE SECTION */
@@ -337,22 +360,21 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
   flex-wrap: wrap;
-  flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 4rem;
 }
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
-  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
 
 article .icon {
   cursor: default;
+  font-size: 3rem;
 }
 
 /* PROJECTS SECTION */
