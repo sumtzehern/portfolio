@@ -630,6 +630,10 @@ body.dark-mode .menu-links {
   background-color: rgba(89, 115, 135, 0.7); /* Grey background with 70% transparency */
 }
 
+body.dark-mode .project-title {
+  color: rgb(117, 112, 112); /* Set the desired grey color for the project-title in dark mode */
+}
+
 /* TRANSITION */
 
 /* Add transition to color and background-color with a duration of 0.3 seconds */
